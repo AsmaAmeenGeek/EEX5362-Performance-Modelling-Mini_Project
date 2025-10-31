@@ -1,0 +1,926 @@
+CustomerID,ArrivalTime,LaneType,AssignedCashier,WaitTime,ServiceTime,DepartureTime,Scenario,Status
+1,2.55,Express,1,0,1.89,4.44,Baseline,Served
+3,5.95,Normal,2,0,0.23,6.17,Baseline,Served
+4,6.17,Normal,2,0,0.2,6.38,Baseline,Served
+10,11.4,Express,1,0,0.76,12.16,Baseline,Served
+5,6.79,Normal,3,0,5.9,12.7,Baseline,Served
+2,2.61,Normal,3,0,16.7,19.32,Baseline,Served
+6,7.35,Normal,3,0,12.43,19.78,Baseline,Served
+9,10.98,Normal,3,8.8,3.57,23.35,Baseline,Served
+7,7.97,Normal,3,4.73,12.34,25.04,Baseline,Served
+15,24.82,Express,1,0,1.94,26.76,Baseline,Served
+12,17.13,Normal,3,7.91,2.56,27.6,Baseline,Served
+13,20.4,Normal,3,7.2,0.62,28.23,Baseline,Served
+11,12.43,Normal,3,10.92,6.46,29.81,Baseline,Served
+16,27.87,Express,1,0,2.44,30.31,Baseline,Served
+18,29.66,Express,1,0.65,1.41,31.72,Baseline,Served
+14,22.41,Normal,3,5.82,7.57,35.8,Baseline,Served
+20,32.86,Express,1,0,3.58,36.44,Baseline,Served
+23,41.56,Express,1,0,0.24,41.81,Baseline,Served
+8,7.98,Normal,3,11.33,27.12,46.44,Baseline,Served
+24,45.31,Express,1,0,1.78,47.08,Baseline,Served
+21,36.13,Normal,3,10.31,2.83,49.27,Baseline,Served
+17,28.53,Normal,3,1.28,20.69,50.5,Baseline,Served
+25,46.25,Normal,3,4.25,3.78,54.28,Baseline,Served
+26,53.41,Normal,3,0.87,2.31,56.58,Baseline,Served
+22,38.68,Normal,2,10.59,7.99,57.26,Baseline,Served
+27,59.56,Normal,3,0,2.29,61.85,Baseline,Served
+30,63.08,Express,1,0,0.87,63.95,Baseline,Served
+28,60.27,Normal,3,0,3.82,64.09,Baseline,Served
+29,62.46,Normal,3,0,5.34,67.81,Baseline,Served
+31,63.32,Normal,3,0.77,4.11,68.2,Baseline,Served
+19,30.25,Normal,3,5.55,34.19,69.99,Baseline,Served
+33,65.95,Normal,3,2.25,14.79,82.99,Baseline,Served
+35,79.86,Express,1,0,7.68,87.55,Baseline,Served
+34,79.83,Normal,3,0,8.59,88.42,Baseline,Served
+32,65.79,Normal,3,2.02,26.57,94.38,Baseline,Served
+40,84.85,Express,1,2.69,7.64,95.19,Baseline,Served
+37,82.08,Normal,3,6.34,7.04,95.46,Baseline,Served
+39,84.36,Normal,3,11.1,0.45,95.91,Baseline,Served
+43,92.31,Express,1,2.87,2.76,97.94,Baseline,Served
+36,81.79,Normal,3,1.2,15.65,98.64,Baseline,Served
+42,90.38,Normal,3,8.26,0.67,99.31,Baseline,Served
+45,95.18,Normal,3,4.13,4.99,104.3,Baseline,Served
+46,100.46,Normal,3,3.84,2.31,106.61,Baseline,Served
+48,104.27,Normal,3,2.35,1.79,108.4,Baseline,Served
+41,89.96,Normal,3,5.95,15.78,111.69,Baseline,Served
+49,105.88,Normal,2,2.52,5.81,114.21,Baseline,Served
+38,83.6,Normal,1,10.79,19.85,114.23,Baseline,Served
+52,115.23,Normal,2,0,0.97,116.2,Baseline,Served
+55,117.96,Normal,3,0,1.95,119.91,Baseline,Served
+44,94.2,Express,1,3.74,22.02,119.97,Baseline,Served
+56,118.15,Normal,3,1.77,0.55,120.47,Baseline,Served
+47,100.64,Express,1,19.33,2.04,122,Baseline,Served
+51,114.3,Normal,2,0,7.87,122.17,Baseline,Served
+53,116.67,Normal,1,0,6.66,123.33,Baseline,Served
+58,124.65,Normal,1,0,4.8,129.45,Baseline,Served
+50,111.03,Express,1,10.98,8.29,130.3,Baseline,Served
+60,135.62,Normal,2,0,4.13,139.75,Baseline,Served
+54,117.31,Express,1,12.99,11.52,141.81,Baseline,Served
+61,135.87,Normal,1,0,8.39,144.27,Baseline,Served
+57,124.04,Express,1,17.77,3.86,145.68,Baseline,Served
+59,131.5,Express,1,14.18,3.11,148.78,Baseline,Served
+62,137.45,Express,1,11.34,1.58,150.37,Baseline,Served
+63,147.81,Express,1,2.56,4.46,154.83,Baseline,Served
+65,154.13,Normal,2,0,4.39,158.52,Baseline,Served
+64,152.76,Express,1,2.07,14.82,169.65,Baseline,Served
+67,156.84,Normal,2,0,26.05,182.9,Baseline,Served
+71,182.61,Normal,2,0,2.31,184.92,Baseline,Served
+72,183.8,Normal,2,0,4.12,187.92,Baseline,Served
+66,154.85,Express,1,14.8,19.56,189.21,Baseline,Served
+73,187.63,Normal,1,0,6.09,193.72,Baseline,Served
+68,174.94,Express,1,14.27,9.5,198.72,Baseline,Served
+75,195.94,Normal,1,0,5.86,201.8,Baseline,Served
+69,179.66,Express,1,19.06,10.34,209.06,Baseline,Served
+76,204.6,Normal,2,0,5.24,209.84,Baseline,Served
+79,209.74,Normal,1,0,2.01,211.75,Baseline,Served
+80,212,Normal,2,0,2.12,214.12,Baseline,Served
+81,212.32,Normal,2,0,4.08,216.4,Baseline,Served
+83,216.77,Normal,3,0,2.05,218.81,Baseline,Served
+85,218.6,Normal,3,0.21,0.56,219.38,Baseline,Served
+84,217.34,Normal,3,0,2.68,220.01,Baseline,Served
+74,195.52,Express,N/A,30,0,225.52,Baseline,Left
+70,181.33,Express,1,27.73,24.29,233.35,Baseline,Served
+77,204.74,Express,1,28.6,0.06,233.4,Baseline,Served
+82,214.58,Normal,3,0,20.47,235.04,Baseline,Served
+88,221.27,Normal,3,0,15.96,237.23,Baseline,Served
+89,222.04,Normal,3,13,2.67,237.71,Baseline,Served
+90,227.33,Normal,3,9.9,8.17,245.39,Baseline,Served
+78,209.53,Express,1,23.87,12.74,246.15,Baseline,Served
+87,221.08,Express,1,25.06,2.3,248.44,Baseline,Served
+93,241.7,Express,1,6.75,4.13,252.58,Baseline,Served
+92,230.8,Normal,3,14.6,7.54,252.94,Baseline,Served
+96,243.14,Express,1,9.44,2.43,255.01,Baseline,Served
+91,227.76,Normal,3,9.96,20.97,258.68,Baseline,Served
+98,247.97,Express,1,7.03,6.02,261.02,Baseline,Served
+86,219.55,Normal,3,0,41.59,261.14,Baseline,Served
+97,246.3,Normal,3,14.84,1.2,262.34,Baseline,Served
+94,242.06,Normal,3,10.88,10.14,263.08,Baseline,Served
+99,252.65,Normal,3,9.69,1.02,263.37,Baseline,Served
+100,252.66,Express,1,8.36,6.55,267.57,Baseline,Served
+101,255.2,Express,1,12.38,2.15,269.73,Baseline,Served
+95,242.34,Normal,3,16.34,13.5,272.17,Baseline,Served
+104,262.64,Normal,3,9.53,1.26,273.43,Baseline,Served
+102,256.59,Normal,3,6.48,11.93,275,Baseline,Served
+105,263.56,Express,1,6.16,7.27,277,Baseline,Served
+103,256.79,Normal,3,6.58,14.78,278.15,Baseline,Served
+107,269.57,Normal,3,5.44,12.49,287.49,Baseline,Served
+109,279.95,Normal,3,7.54,0.86,288.35,Baseline,Served
+106,269.29,Normal,3,4.14,19.93,293.37,Baseline,Served
+108,274.95,Normal,3,3.2,15.99,294.14,Baseline,Served
+112,285.08,Express,1,0,11.61,296.69,Baseline,Served
+110,280.02,Normal,3,8.33,15.43,303.77,Baseline,Served
+114,294.13,Normal,3,0.01,11.9,306.04,Baseline,Served
+111,281.02,Normal,3,12.34,12.72,306.09,Baseline,Served
+116,296.32,Normal,2,7.46,7.69,311.47,Baseline,Served
+113,289.24,Express,1,7.45,14.98,311.67,Baseline,Served
+118,305.37,Normal,1,0.67,5.76,311.8,Baseline,Served
+120,313.65,Normal,3,0,2.31,315.96,Baseline,Served
+123,315.37,Normal,3,0.59,2.2,318.17,Baseline,Served
+122,314.43,Normal,3,0,5.37,319.8,Baseline,Served
+121,314.14,Normal,2,0,9.78,323.92,Baseline,Served
+117,296.85,Express,N/A,30,0,326.85,Baseline,Left
+125,319.67,Normal,2,0,9.53,329.2,Baseline,Served
+126,326.16,Normal,2,0,3.4,329.56,Baseline,Served
+127,329.55,Normal,3,0,3.01,332.56,Baseline,Served
+129,330.67,Normal,3,0,3.94,334.61,Baseline,Served
+119,306.65,Express,N/A,30,0,336.65,Baseline,Left
+115,295.67,Express,1,16,26.4,338.07,Baseline,Served
+128,329.73,Normal,3,0,9.54,339.27,Baseline,Served
+133,336.02,Normal,3,3.25,1.8,341.08,Baseline,Served
+132,333.19,Normal,3,1.42,7.17,341.78,Baseline,Served
+124,316.59,Express,1,21.49,7.98,346.05,Baseline,Served
+136,338.32,Normal,3,3.46,5.43,347.21,Baseline,Served
+137,339.89,Normal,3,7.33,1.91,349.12,Baseline,Served
+139,341.95,Normal,3,7.17,2.11,351.23,Baseline,Served
+135,336.92,Normal,3,4.16,11.92,353,Baseline,Served
+131,332.85,Normal,3,0,21.15,354,Baseline,Served
+143,350.89,Normal,3,3.11,0.04,354.04,Baseline,Served
+130,331.57,Express,1,14.48,8.38,354.42,Baseline,Served
+142,349.28,Normal,3,3.72,5.11,358.11,Baseline,Served
+134,336.92,Express,1,17.51,4.15,358.58,Baseline,Served
+140,344.46,Normal,3,6.77,8.94,360.17,Baseline,Served
+147,357.94,Normal,3,0.18,5.47,363.59,Baseline,Served
+145,353.56,Normal,3,0.48,10.43,364.47,Baseline,Served
+149,358.55,Normal,2,1.62,8.26,368.43,Baseline,Served
+138,341.49,Express,1,17.09,12.12,370.7,Baseline,Served
+151,374.3,Normal,3,0,5.27,379.57,Baseline,Served
+144,351.08,Express,N/A,30,0,381.08,Baseline,Left
+153,381.11,Normal,3,0,2.25,383.36,Baseline,Served
+146,354.26,Express,N/A,30,0,384.26,Baseline,Left
+150,363.27,Normal,3,0.32,22.47,386.06,Baseline,Served
+141,348.72,Express,1,21.98,16.65,387.35,Baseline,Served
+155,385.22,Normal,3,0.84,2.41,388.47,Baseline,Served
+157,387.27,Normal,3,1.2,0.5,388.97,Baseline,Served
+159,388.43,Normal,3,0.53,3.93,392.89,Baseline,Served
+148,358.42,Express,1,28.93,5.83,393.18,Baseline,Served
+152,376.67,Normal,3,0,17.06,393.73,Baseline,Served
+160,391.39,Normal,3,1.5,1.74,394.63,Baseline,Served
+154,384.51,Normal,2,0,10.89,395.4,Baseline,Served
+156,387.07,Express,1,6.11,4.09,397.27,Baseline,Served
+162,399.23,Normal,2,0,0.04,399.27,Baseline,Served
+161,393.35,Normal,1,0.39,8.92,402.65,Baseline,Served
+158,388.06,Express,1,9.21,14.57,411.84,Baseline,Served
+165,411.61,Normal,3,0,1.87,413.47,Baseline,Served
+166,413.58,Normal,3,0,0.22,413.8,Baseline,Served
+164,403.94,Normal,3,0,10.32,414.26,Baseline,Served
+168,415.22,Normal,3,0,1.02,416.25,Baseline,Served
+163,402.85,Normal,2,0,14.4,417.26,Baseline,Served
+167,414.2,Normal,1,0,3.89,418.08,Baseline,Served
+169,415.67,Express,1,0,3.76,419.43,Baseline,Served
+171,420.19,Normal,1,0,0.39,420.57,Baseline,Served
+174,422.73,Normal,2,0,2.18,424.91,Baseline,Served
+173,421.74,Normal,1,0,3.57,425.32,Baseline,Served
+170,418.11,Express,1,1.32,7.72,427.15,Baseline,Served
+176,426.43,Normal,2,0,3.23,429.66,Baseline,Served
+172,420.55,Express,1,6.6,7.88,435.03,Baseline,Served
+175,426.22,Express,1,8.81,0.15,435.18,Baseline,Served
+178,432.17,Express,1,3.01,1.24,436.42,Baseline,Served
+177,428.37,Normal,1,0,10.53,438.89,Baseline,Served
+183,441.35,Express,1,0,0.2,441.55,Baseline,Served
+179,439.64,Normal,3,0,6.23,445.86,Baseline,Served
+182,441.05,Normal,3,4.81,2.8,448.67,Baseline,Served
+180,439.98,Normal,3,0,10.92,450.9,Baseline,Served
+181,440.59,Normal,2,0,10.34,450.93,Baseline,Served
+184,449.71,Normal,1,0,3.79,453.5,Baseline,Served
+185,452.54,Express,1,0,8.8,461.34,Baseline,Served
+186,455.68,Express,1,5.66,0.97,462.31,Baseline,Served
+187,458.15,Normal,2,0,6.88,465.03,Baseline,Served
+188,461.85,Normal,1,0,3.2,465.05,Baseline,Served
+189,472.16,Normal,3,0,5.29,477.45,Baseline,Served
+1,1.28,Express,1,0,1.89,3.17,High Traffic,Served
+3,2.97,Normal,3,0,0.23,3.2,High Traffic,Served
+4,3.09,Normal,2,0,0.2,3.29,High Traffic,Served
+10,5.7,Express,1,0,0.76,6.46,High Traffic,Served
+5,3.4,Normal,3,0,5.9,9.3,High Traffic,Served
+7,3.98,Normal,3,5.32,5.76,15.06,High Traffic,Served
+6,3.67,Normal,3,0,12.43,16.11,High Traffic,Served
+2,1.31,Normal,3,0,16.7,18.01,High Traffic,Served
+11,6.21,Normal,3,11.8,0.35,18.36,High Traffic,Served
+12,8.56,Normal,3,9.8,1.94,20.3,High Traffic,Served
+16,18.43,Express,1,0,1.99,20.42,High Traffic,Served
+8,3.99,Normal,3,11.07,6.02,21.09,High Traffic,Served
+14,15.14,Normal,3,5.94,1.41,22.49,High Traffic,Served
+13,10.62,Normal,3,9.68,2.33,22.63,High Traffic,Served
+15,17.35,Normal,3,5.14,3.58,26.07,High Traffic,Served
+9,5.49,Normal,3,10.62,14.84,30.94,High Traffic,Served
+20,20.83,Normal,3,5.24,11.22,37.29,High Traffic,Served
+17,18.86,Express,1,1.56,20.69,41.11,High Traffic,Served
+23,25.04,Normal,3,12.25,4.11,41.41,High Traffic,Served
+22,23.77,Normal,3,7.18,18.45,49.39,High Traffic,Served
+21,22.13,Express,N/A,30,0,52.13,High Traffic,Left
+27,27.58,Normal,3,21.81,5.21,54.6,High Traffic,Served
+28,30.19,Normal,3,24.4,1.24,55.84,High Traffic,Served
+26,27.29,Normal,3,14.12,14.79,56.19,High Traffic,Served
+24,26.49,Express,N/A,30,0,56.49,High Traffic,Left
+25,26.81,Express,N/A,30,0,56.81,High Traffic,Left
+18,18.99,Normal,3,3.64,34.19,56.82,High Traffic,Served
+32,33.03,Normal,3,23.79,2.76,59.58,High Traffic,Served
+29,31.53,Express,N/A,30,0,61.53,High Traffic,Left
+31,32.65,Normal,3,23.55,5.67,61.86,High Traffic,Served
+36,37.14,Normal,3,24.72,0.54,62.4,High Traffic,Served
+33,35.88,Normal,3,23.7,4.99,64.57,High Traffic,Served
+34,36.19,Express,N/A,30,0,66.19,High Traffic,Left
+35,37.08,Express,N/A,30,0,67.08,High Traffic,Left
+30,32.29,Normal,3,23.55,11.31,67.15,High Traffic,Served
+19,20.25,Express,1,20.86,26.57,67.68,High Traffic,Served
+39,45.4,Normal,3,21.76,1.79,68.94,High Traffic,Served
+38,38.46,Normal,3,26.11,4.84,69.41,High Traffic,Served
+40,45.41,Normal,3,23.53,2.8,71.74,High Traffic,Served
+37,38.38,Normal,3,24.03,10.72,73.12,High Traffic,Served
+44,48.13,Express,1,19.55,5.81,73.5,High Traffic,Served
+42,47.23,Normal,3,24.51,1.91,73.65,High Traffic,Served
+46,50.99,Express,1,22.51,0.55,74.05,High Traffic,Served
+43,47.38,Normal,3,25.74,1.95,75.07,High Traffic,Served
+45,50.74,Normal,3,22.91,2.04,75.69,High Traffic,Served
+48,54.82,Normal,3,20.87,1.06,76.75,High Traffic,Served
+47,53.54,Normal,3,21.53,1.81,76.88,High Traffic,Served
+49,56.61,Normal,3,20.14,4.8,81.55,High Traffic,Served
+51,56.64,Normal,3,24.91,0.76,82.32,High Traffic,Served
+53,59.35,Express,1,14.7,8.29,82.34,High Traffic,Served
+52,59.28,Normal,3,23.04,4.72,87.04,High Traffic,Served
+50,56.61,Normal,3,20.27,11.52,88.4,High Traffic,Served
+54,63.02,Express,1,19.32,9.79,92.13,High Traffic,Served
+55,64.84,Express,1,27.3,1.36,93.5,High Traffic,Served
+58,70.04,Normal,3,18.35,5.99,94.39,High Traffic,Served
+60,72.27,Normal,3,22.12,1.8,96.19,High Traffic,Served
+57,68.41,Express,1,25.09,4.99,98.48,High Traffic,Served
+62,73.11,Normal,3,23.08,4.55,100.75,High Traffic,Served
+56,65.83,Normal,3,21.2,14.82,101.85,High Traffic,Served
+63,73.2,Normal,3,27.54,1.26,102.01,High Traffic,Served
+61,72.78,Express,N/A,30,0,102.78,High Traffic,Left
+64,76.15,Normal,3,25.7,2.64,104.49,High Traffic,Served
+59,71.36,Express,1,27.13,9.5,107.99,High Traffic,Served
+41,46.84,Normal,3,22.56,39.96,109.37,High Traffic,Served
+69,83.87,Normal,N/A,30,0,113.87,High Traffic,Left
+70,84.39,Express,N/A,30,0,114.39,High Traffic,Left
+71,84.74,Normal,N/A,30,0,114.74,High Traffic,Left
+65,79.58,Express,1,28.41,6.77,114.76,High Traffic,Served
+67,82.34,Normal,3,22.15,10.34,114.83,High Traffic,Served
+72,85.49,Express,1,29.27,0.57,115.33,High Traffic,Served
+68,83.74,Normal,3,25.63,7.24,116.62,High Traffic,Served
+73,85.9,Normal,3,28.93,1.8,116.63,High Traffic,Served
+77,94.69,Express,1,20.64,2.31,117.64,High Traffic,Served
+76,91.43,Normal,N/A,30,0,121.43,High Traffic,Left
+78,95.33,Normal,N/A,30,0,125.33,High Traffic,Left
+79,95.93,Normal,N/A,30,0,125.93,High Traffic,Left
+80,96.31,Normal,N/A,30,0,126.31,High Traffic,Left
+81,97,Normal,N/A,30,0,127,High Traffic,Left
+66,81.64,Normal,3,20.37,25.98,127.99,High Traffic,Served
+75,89.17,Normal,3,27.46,15.96,132.58,High Traffic,Served
+86,105.98,Express,1,11.66,15.86,133.5,High Traffic,Served
+83,104.82,Normal,3,27.77,0.92,133.5,High Traffic,Served
+88,107.21,Express,1,26.29,0.85,134.35,High Traffic,Served
+85,105.76,Normal,N/A,30,0,135.76,High Traffic,Left
+87,106.08,Normal,N/A,30,0,136.08,High Traffic,Left
+82,103.73,Normal,3,24.26,8.17,136.16,High Traffic,Served
+90,110.31,Normal,3,25.85,0.73,136.88,High Traffic,Served
+74,89.11,Normal,3,27.51,20.3,136.92,High Traffic,Served
+92,111.91,Normal,3,25,2.43,139.35,High Traffic,Served
+84,104.89,Normal,3,28.61,6.04,139.55,High Traffic,Served
+91,110.99,Normal,3,25.9,4.13,141.02,High Traffic,Served
+89,107.55,Express,1,26.8,7.54,141.89,High Traffic,Served
+97,114.5,Normal,N/A,30,0,144.5,High Traffic,Left
+95,113.93,Normal,3,25.62,6.02,145.56,High Traffic,Served
+94,112.54,Express,1,29.35,6.55,148.44,High Traffic,Served
+93,112.2,Normal,3,27.15,10.14,149.49,High Traffic,Served
+100,125.41,Normal,3,24.07,1.26,150.74,High Traffic,Served
+96,114.41,Normal,3,26.61,13.5,154.51,High Traffic,Served
+106,135.52,Normal,3,18.99,0.19,154.7,High Traffic,Served
+98,122.59,Express,1,25.85,7.27,155.71,High Traffic,Served
+102,127.92,Express,N/A,30,0,157.92,High Traffic,Left
+103,130.04,Express,N/A,30,0,160.04,High Traffic,Left
+99,123.17,Normal,3,22.4,17.19,162.75,High Traffic,Served
+105,133.94,Express,N/A,30,0,163.94,High Traffic,Left
+108,138.85,Normal,3,23.91,1.94,164.69,High Traffic,Served
+107,135.9,Normal,3,18.8,10,164.7,High Traffic,Served
+101,126.59,Express,1,29.12,12.49,168.2,High Traffic,Served
+112,140.91,Normal,3,23.79,3.83,168.53,High Traffic,Served
+114,144.04,Normal,3,24.49,0.92,169.45,High Traffic,Served
+110,140.12,Express,N/A,30,0,170.12,High Traffic,Left
+111,140.82,Normal,3,23.87,7.69,172.38,High Traffic,Served
+113,143.84,Express,N/A,30,0,173.84,High Traffic,Left
+117,146.78,Normal,3,25.6,1.48,173.86,High Traffic,Served
+118,146.92,Normal,3,26.94,0.86,174.72,High Traffic,Served
+116,146.49,Express,N/A,30,0,176.49,High Traffic,Left
+104,133.54,Normal,3,17.21,28.04,178.78,High Traffic,Served
+119,149.61,Normal,3,25.1,4.28,179,High Traffic,Served
+120,152.94,Normal,3,25.85,3.65,182.43,High Traffic,Served
+121,155.02,Normal,3,23.98,6.45,185.44,High Traffic,Served
+122,155.52,Normal,3,26.91,3.4,185.83,High Traffic,Served
+125,158.08,Express,N/A,30,0,188.08,High Traffic,Left
+123,157.55,Normal,3,27.89,2.68,188.12,High Traffic,Served
+109,138.85,Express,1,29.35,21.01,189.2,High Traffic,Served
+124,157.94,Normal,3,27.89,3.86,189.69,High Traffic,Served
+129,163.13,Normal,N/A,30,0,193.13,High Traffic,Left
+130,163.63,Express,N/A,30,0,193.63,High Traffic,Left
+127,162.64,Normal,3,27.04,4.69,194.38,High Traffic,Served
+126,160.52,Normal,3,27.6,7.17,195.29,High Traffic,Served
+115,144.5,Normal,3,24.95,26.4,195.85,High Traffic,Served
+128,163.1,Express,1,26.1,7.98,197.18,High Traffic,Served
+133,176.96,Normal,3,18.33,1.91,197.2,High Traffic,Served
+134,178.59,Normal,3,17.26,1.67,197.52,High Traffic,Served
+132,172.85,Express,1,24.33,0.57,197.74,High Traffic,Served
+135,179.75,Normal,3,17.45,4.01,201.21,High Traffic,Served
+143,186.19,Express,1,11.55,5.11,202.86,High Traffic,Served
+136,180.12,Normal,3,17.4,8.94,206.45,High Traffic,Served
+131,167.89,Normal,3,26.49,12.8,207.18,High Traffic,Served
+147,189.17,Express,1,13.69,8.26,211.12,High Traffic,Served
+140,182.87,Normal,N/A,30,0,212.87,High Traffic,Left
+141,183.37,Normal,N/A,30,0,213.37,High Traffic,Left
+142,185.73,Normal,N/A,30,0,215.73,High Traffic,Left
+144,186.63,Normal,N/A,30,0,216.63,High Traffic,Left
+145,187.31,Normal,N/A,30,0,217.31,High Traffic,Left
+146,188.72,Normal,N/A,30,0,218.72,High Traffic,Left
+148,189.17,Normal,N/A,30,0,219.17,High Traffic,Left
+150,190.6,Normal,N/A,30,0,220.6,High Traffic,Left
+149,189.87,Express,1,21.25,10.21,221.33,High Traffic,Served
+152,193.39,Normal,N/A,30,0,223.39,High Traffic,Left
+153,193.5,Normal,N/A,30,0,223.5,High Traffic,Left
+139,182.78,Normal,3,24.4,16.65,223.83,High Traffic,Served
+154,194.75,Normal,3,29.07,0.04,223.87,High Traffic,Served
+137,180.12,Normal,3,21.09,23.77,224.98,High Traffic,Served
+155,196.49,Express,N/A,30,0,226.49,High Traffic,Left
+156,196.52,Normal,3,27.35,3.25,227.12,High Traffic,Served
+157,197.33,Express,N/A,30,0,227.33,High Traffic,Left
+151,191.4,Express,1,29.92,6.58,227.91,High Traffic,Served
+138,181.09,Normal,3,25.37,22.47,228.93,High Traffic,Served
+160,198.93,Express,1,28.98,1.86,229.77,High Traffic,Served
+161,200.77,Express,1,29,1.35,231.12,High Traffic,Served
+163,202.37,Normal,3,26.56,3.07,232,High Traffic,Served
+159,198.92,Normal,3,28.2,5.92,233.05,High Traffic,Served
+162,201.46,Express,1,29.66,7.3,238.42,High Traffic,Served
+166,209.01,Normal,N/A,30,0,239.01,High Traffic,Left
+164,202.73,Normal,3,29.27,7.72,239.72,High Traffic,Served
+168,211.07,Normal,N/A,30,0,241.07,High Traffic,Left
+170,212.87,Normal,N/A,30,0,242.87,High Traffic,Left
+171,213.22,Normal,N/A,30,0,243.22,High Traffic,Left
+165,203.49,Normal,3,29.56,10.46,243.51,High Traffic,Served
+172,215.04,Express,N/A,30,0,245.04,High Traffic,Left
+173,216.27,Express,N/A,30,0,246.27,High Traffic,Left
+175,216.77,Express,N/A,30,0,246.77,High Traffic,Left
+176,217.74,Normal,N/A,30,0,247.74,High Traffic,Left
+158,198.57,Normal,3,26.41,23,247.98,High Traffic,Served
+177,218.07,Express,N/A,30,0,248.07,High Traffic,Left
+169,212.06,Express,1,26.36,11.4,249.82,High Traffic,Served
+179,220.25,Express,1,29.56,0.59,250.41,High Traffic,Served
+174,216.37,Normal,3,27.13,7.01,250.51,High Traffic,Served
+178,219.6,Normal,3,28.38,2.8,250.79,High Traffic,Served
+185,227.34,Express,1,23.07,0.81,251.22,High Traffic,Served
+182,223.09,Normal,N/A,30,0,253.09,High Traffic,Left
+183,224.91,Normal,N/A,30,0,254.91,High Traffic,Left
+184,226.66,Normal,N/A,30,0,256.66,High Traffic,Left
+186,228.49,Express,1,22.73,6.88,258.1,High Traffic,Served
+187,229.21,Normal,N/A,30,0,259.21,High Traffic,Left
+189,231.42,Normal,N/A,30,0,261.42,High Traffic,Left
+190,231.45,Express,N/A,30,0,261.45,High Traffic,Left
+180,220.93,Normal,3,29.59,11.1,261.62,High Traffic,Served
+167,210.19,Normal,3,29.53,22.41,262.13,High Traffic,Served
+193,232.74,Normal,N/A,30,0,262.74,High Traffic,Left
+194,233.03,Normal,N/A,30,0,263.03,High Traffic,Left
+195,234.82,Express,N/A,30,0,264.82,High Traffic,Left
+181,221.61,Normal,3,29.18,14.24,265.03,High Traffic,Served
+196,237.05,Express,N/A,30,0,267.05,High Traffic,Left
+188,230.63,Express,1,27.47,9.21,267.31,High Traffic,Served
+192,232.67,Normal,3,29.46,5.79,267.93,High Traffic,Served
+199,238.67,Normal,N/A,30,0,268.67,High Traffic,Left
+198,238.13,Normal,3,29.8,2.1,270.02,High Traffic,Served
+201,240.26,Express,N/A,30,0,270.26,High Traffic,Left
+202,240.47,Normal,3,29.55,1.79,271.81,High Traffic,Served
+204,242.16,Express,N/A,30,0,272.16,High Traffic,Left
+205,243.98,Express,N/A,30,0,273.98,High Traffic,Left
+191,232.49,Normal,3,29.13,12.38,274,High Traffic,Served
+206,245.7,Normal,3,28.3,0.08,274.08,High Traffic,Served
+207,247.84,Express,N/A,30,0,277.84,High Traffic,Left
+197,237.16,Normal,3,27.87,14.31,279.34,High Traffic,Served
+210,250.03,Normal,N/A,30,0,280.03,High Traffic,Left
+211,251.5,Normal,N/A,30,0,281.5,High Traffic,Left
+212,251.66,Normal,N/A,30,0,281.66,High Traffic,Left
+200,239.98,Express,1,27.33,16,283.32,High Traffic,Served
+213,253.57,Normal,N/A,30,0,283.57,High Traffic,Left
+203,241.85,Normal,3,29.96,11.99,283.8,High Traffic,Served
+209,249.4,Normal,3,29.94,5.68,285.02,High Traffic,Served
+219,259.63,Express,1,23.69,1.83,285.14,High Traffic,Served
+216,257.51,Normal,N/A,30,0,287.51,High Traffic,Left
+221,264.66,Express,1,20.48,2.5,287.64,High Traffic,Served
+217,257.65,Normal,N/A,30,0,287.65,High Traffic,Left
+214,254.27,Normal,3,29.53,4.97,288.77,High Traffic,Served
+218,258.92,Normal,3,29.85,1.53,290.29,High Traffic,Served
+215,255.15,Normal,3,29.87,5.58,290.6,High Traffic,Served
+223,268.53,Normal,3,22.07,0.41,291.01,High Traffic,Served
+226,272.28,Normal,3,18.73,0.95,291.96,High Traffic,Served
+222,266.31,Express,1,21.33,6.4,294.04,High Traffic,Served
+208,247.98,Normal,3,26.09,22.18,296.26,High Traffic,Served
+220,263.84,Normal,3,26.46,7.45,297.74,High Traffic,Served
+225,269.9,Express,N/A,30,0,299.9,High Traffic,Left
+227,272.8,Express,N/A,30,0,302.8,High Traffic,Left
+229,274.42,Normal,3,21.84,7.28,303.54,High Traffic,Served
+231,276.73,Normal,3,26.81,0.02,303.56,High Traffic,Served
+228,274.31,Normal,3,17.65,11.73,303.69,High Traffic,Served
+230,275.26,Normal,3,22.48,7.05,304.79,High Traffic,Served
+234,279.16,Normal,3,24.52,1.97,305.66,High Traffic,Served
+232,277.57,Express,N/A,30,0,307.57,High Traffic,Left
+233,277.69,Normal,3,25.87,4.49,308.05,High Traffic,Served
+224,269.31,Express,1,24.73,14.75,308.8,High Traffic,Served
+235,280.25,Normal,3,24.54,4.54,309.33,High Traffic,Served
+238,281.84,Express,N/A,30,0,311.84,High Traffic,Left
+240,282.16,Express,N/A,30,0,312.16,High Traffic,Left
+236,280.95,Normal,3,24.72,8.72,314.38,High Traffic,Served
+239,282,Normal,3,26.05,7.36,315.41,High Traffic,Served
+242,285.57,Express,N/A,30,0,315.57,High Traffic,Left
+243,285.7,Express,N/A,30,0,315.7,High Traffic,Left
+245,286.04,Normal,3,29.36,1,316.4,High Traffic,Served
+237,281.45,Express,1,27.35,8.12,316.91,High Traffic,Served
+244,286.03,Normal,3,28.36,2.55,316.94,High Traffic,Served
+248,287.62,Normal,N/A,30,0,317.62,High Traffic,Left
+249,288.46,Normal,N/A,30,0,318.46,High Traffic,Left
+250,289.26,Normal,N/A,30,0,319.26,High Traffic,Left
+251,289.32,Normal,N/A,30,0,319.32,High Traffic,Left
+253,290.77,Normal,N/A,30,0,320.77,High Traffic,Left
+254,290.98,Normal,N/A,30,0,320.98,High Traffic,Left
+255,291.43,Normal,N/A,30,0,321.43,High Traffic,Left
+247,287.45,Normal,3,29.49,5.11,322.04,High Traffic,Served
+252,290.13,Express,1,26.78,5.21,322.12,High Traffic,Served
+257,293.56,Normal,N/A,30,0,323.56,High Traffic,Left
+258,294.3,Normal,N/A,30,0,324.3,High Traffic,Left
+256,293.24,Normal,3,28.81,6.42,328.46,High Traffic,Served
+241,283.96,Normal,3,25.37,20.35,329.68,High Traffic,Served
+264,304.76,Normal,3,24.93,0.31,329.99,High Traffic,Served
+259,300.07,Normal,3,28.4,2.36,330.82,High Traffic,Served
+261,302.04,Express,N/A,30,0,332.04,High Traffic,Left
+262,303.39,Express,N/A,30,0,333.39,High Traffic,Left
+263,303.63,Express,N/A,30,0,333.63,High Traffic,Left
+266,309.51,Normal,3,21.31,4.77,335.59,High Traffic,Served
+246,286.44,Normal,3,29.96,21.44,337.85,High Traffic,Served
+269,313.7,Normal,3,24.15,2.55,340.4,High Traffic,Served
+265,306.29,Normal,3,23.7,10.59,340.58,High Traffic,Served
+268,311.51,Express,N/A,30,0,341.51,High Traffic,Left
+267,310.2,Normal,3,25.39,8.87,344.46,High Traffic,Served
+260,301.75,Express,1,20.37,22.59,344.71,High Traffic,Served
+271,315.65,Normal,3,24.93,4.55,345.13,High Traffic,Served
+270,313.92,Normal,3,26.47,5.99,346.39,High Traffic,Served
+274,317.92,Express,N/A,30,0,347.92,High Traffic,Left
+273,317.21,Normal,3,27.25,5.42,349.88,High Traffic,Served
+276,322.37,Normal,3,24.02,5.87,352.25,High Traffic,Served
+275,318.28,Normal,3,26.85,8.04,353.17,High Traffic,Served
+278,333.38,Normal,3,18.87,0.97,353.22,High Traffic,Served
+280,334.89,Normal,3,18.33,1.29,354.52,High Traffic,Served
+279,333.63,Normal,3,19.54,2.05,355.22,High Traffic,Served
+277,332.06,Normal,3,17.82,8.99,358.87,High Traffic,Served
+283,337.95,Normal,3,20.92,0.94,359.81,High Traffic,Served
+281,335.01,Normal,3,19.51,6,360.52,High Traffic,Served
+282,335.52,Normal,3,19.7,6.03,361.24,High Traffic,Served
+285,342.06,Normal,3,18.46,5.33,365.85,High Traffic,Served
+284,341.58,Normal,3,18.22,13.38,373.19,High Traffic,Served
+289,348.9,Normal,3,24.29,1.57,374.76,High Traffic,Served
+286,346.45,Express,N/A,30,0,376.45,High Traffic,Left
+290,349.19,Normal,3,25.57,2,376.75,High Traffic,Served
+272,317.11,Express,1,27.6,33.25,377.95,High Traffic,Served
+299,363.27,Express,1,14.68,3.66,381.61,High Traffic,Served
+302,368.6,Express,1,13.01,0.28,381.89,High Traffic,Served
+288,347.67,Normal,3,18.18,20.41,386.27,High Traffic,Served
+291,352.47,Normal,3,24.28,10.24,386.99,High Traffic,Served
+304,370.12,Express,1,11.77,5.23,387.13,High Traffic,Served
+294,360.16,Normal,N/A,30,0,390.16,High Traffic,Left
+287,347.11,Normal,3,14.13,29.43,390.68,High Traffic,Served
+296,361.43,Normal,N/A,30,0,391.43,High Traffic,Left
+293,357.11,Normal,3,29.88,4.58,391.57,High Traffic,Served
+292,356.99,Normal,3,29.28,5.6,391.87,High Traffic,Served
+300,365.76,Normal,N/A,30,0,395.76,High Traffic,Left
+309,375.18,Express,1,11.94,9.61,396.74,High Traffic,Served
+301,367.71,Normal,N/A,30,0,397.71,High Traffic,Left
+321,398.38,Express,1,0,0.53,398.91,High Traffic,Served
+303,369.01,Normal,N/A,30,0,399.01,High Traffic,Left
+297,361.78,Normal,3,29.8,7.87,399.44,High Traffic,Served
+295,361.03,Normal,3,29.65,8.85,399.53,High Traffic,Served
+307,372.93,Normal,N/A,30,0,402.93,High Traffic,Left
+308,373.69,Normal,N/A,30,0,403.69,High Traffic,Left
+298,362.38,Normal,3,29.49,14.32,406.18,High Traffic,Served
+305,370.96,Normal,3,28.48,7.48,406.92,High Traffic,Served
+311,378.58,Normal,3,28.34,0.78,407.7,High Traffic,Served
+310,377.05,Normal,3,29.13,4.27,410.45,High Traffic,Served
+312,379.94,Normal,3,27.76,7.53,415.23,High Traffic,Served
+314,386,Normal,3,29.24,1.4,416.63,High Traffic,Served
+306,371.93,Normal,3,27.6,19.03,418.56,High Traffic,Served
+313,384.88,Normal,3,25.57,8.88,419.33,High Traffic,Served
+316,389.25,Normal,3,29.31,1.29,419.85,High Traffic,Served
+324,410.98,Express,1,0,11.93,422.91,High Traffic,Served
+318,393.81,Normal,3,26.04,3.18,423.03,High Traffic,Served
+317,389.46,Normal,3,29.87,4.37,423.7,High Traffic,Served
+320,396.8,Normal,3,26.91,2.03,425.74,High Traffic,Served
+329,415.68,Express,1,7.23,3.64,426.55,High Traffic,Served
+319,396.2,Normal,3,26.83,4.95,427.98,High Traffic,Served
+323,408.41,Normal,3,19.57,2.41,430.38,High Traffic,Served
+331,417.09,Express,1,9.47,8.05,434.61,High Traffic,Served
+315,388.59,Normal,3,28.04,18.3,434.93,High Traffic,Served
+325,413.91,Normal,3,16.48,6.26,436.64,High Traffic,Served
+335,421.46,Express,1,13.14,7.59,442.2,High Traffic,Served
+326,414.34,Normal,3,20.59,7.27,442.2,High Traffic,Served
+327,414.54,Normal,3,22.11,8.07,444.72,High Traffic,Served
+336,422.15,Express,1,20.05,2.77,444.97,High Traffic,Served
+330,416.89,Normal,3,27.82,1.06,445.78,High Traffic,Served
+328,415.58,Normal,3,26.62,4.36,446.56,High Traffic,Served
+334,420.36,Normal,N/A,30,0,450.36,High Traffic,Left
+338,425.55,Express,1,19.42,5.81,450.78,High Traffic,Served
+322,400.96,Normal,3,24.78,28.61,454.34,High Traffic,Served
+333,417.46,Normal,3,29.1,13.31,459.87,High Traffic,Served
+348,443.35,Express,1,7.43,10.29,461.08,High Traffic,Served
+340,433.14,Normal,N/A,30,0,463.14,High Traffic,Left
+341,433.21,Normal,N/A,30,0,463.21,High Traffic,Left
+342,434.06,Normal,N/A,30,0,464.06,High Traffic,Left
+332,417.45,Normal,3,28.33,18.36,464.13,High Traffic,Served
+349,443.47,Express,1,17.61,3.42,464.49,High Traffic,Served
+344,435.65,Normal,N/A,30,0,465.65,High Traffic,Left
+345,437.07,Normal,N/A,30,0,467.07,High Traffic,Left
+353,450.83,Express,1,13.67,4.55,469.04,High Traffic,Served
+346,439.35,Normal,N/A,30,0,469.35,High Traffic,Left
+343,434.49,Normal,3,29.65,5.77,469.9,High Traffic,Served
+347,442.27,Normal,3,27.63,0.19,470.09,High Traffic,Served
+354,451.35,Express,1,17.7,2,471.04,High Traffic,Served
+339,431.7,Normal,3,28.18,12.24,472.12,High Traffic,Served
+357,462.81,Express,1,8.23,1.88,472.92,High Traffic,Served
+360,467.26,Express,1,5.66,1.13,474.05,High Traffic,Served
+351,449.64,Normal,3,22.48,3.94,476.06,High Traffic,Served
+337,424.49,Normal,3,29.85,25.47,479.81,High Traffic,Served
+1,2.55,Express,1,0,1.89,4.44,More Cashiers,Served
+3,5.95,Normal,2,0,0.23,6.17,More Cashiers,Served
+4,6.17,Normal,2,0,0.2,6.38,More Cashiers,Served
+9,9.02,Express,2,0,0.76,9.79,More Cashiers,Served
+5,6.79,Normal,5,0,5.9,12.7,More Cashiers,Served
+7,7.97,Normal,5,0,8.98,16.95,More Cashiers,Served
+2,2.61,Normal,6,0,16.7,19.32,More Cashiers,Served
+6,7.35,Normal,5,0,12.43,19.78,More Cashiers,Served
+10,10.05,Normal,4,0,12.34,22.39,More Cashiers,Served
+14,21.62,Express,2,0,1.94,23.56,More Cashiers,Served
+13,19.21,Normal,3,0,6.46,25.67,More Cashiers,Served
+15,24.67,Express,2,0,1.99,26.66,More Cashiers,Served
+16,25.52,Express,2,1.13,1.76,28.42,More Cashiers,Served
+17,25.79,Normal,4,0,3.47,29.26,More Cashiers,Served
+12,18.02,Normal,3,0,13.26,31.29,More Cashiers,Served
+8,7.98,Express,2,0,23.64,31.62,More Cashiers,Served
+18,28.31,Normal,5,0,7.83,36.15,More Cashiers,Served
+22,34.44,Normal,4,0,1.95,36.39,More Cashiers,Served
+19,29.09,Express,1,0,9.8,38.89,More Cashiers,Served
+21,31.88,Normal,6,0,8.65,40.54,More Cashiers,Served
+23,39.07,Normal,6,0,2.34,41.4,More Cashiers,Served
+11,14.75,Normal,5,0,27.12,41.87,More Cashiers,Served
+26,40.68,Normal,4,0,2.31,42.99,More Cashiers,Served
+25,39.74,Normal,3,0,3.78,43.52,More Cashiers,Served
+27,46.83,Normal,4,0,2.29,49.12,More Cashiers,Served
+30,50.36,Express,1,0,0.87,51.23,More Cashiers,Served
+28,47.54,Normal,5,0,3.82,51.37,More Cashiers,Served
+31,50.6,Normal,6,0,4.11,54.71,More Cashiers,Served
+24,39.15,Normal,5,0,15.68,54.83,More Cashiers,Served
+29,49.74,Normal,4,0,5.34,55.08,More Cashiers,Served
+37,57.36,Normal,6,0,2.29,59.65,More Cashiers,Served
+36,57.06,Normal,5,0,4.53,61.6,More Cashiers,Served
+35,55.14,Express,1,0,7.68,62.82,More Cashiers,Served
+34,55.11,Normal,4,0,8.59,63.7,More Cashiers,Served
+20,31.44,Normal,3,0,34.19,65.63,More Cashiers,Served
+33,53.23,Normal,2,0,14.79,68.02,More Cashiers,Served
+39,66.78,Express,2,0,7.64,74.42,More Cashiers,Served
+42,77.84,Normal,4,0,0.15,77.98,More Cashiers,Served
+40,71.89,Express,2,2.53,5.67,80.09,More Cashiers,Served
+38,65.05,Express,1,0,18.28,83.33,More Cashiers,Served
+41,74.24,Normal,3,0,11.31,85.55,More Cashiers,Served
+45,85.37,Express,2,0,4.99,90.36,More Cashiers,Served
+43,77.84,Normal,2,0,13.36,91.2,More Cashiers,Served
+32,53.06,Normal,6,0,41.64,94.71,More Cashiers,Served
+48,93.24,Normal,6,0,4.13,97.36,More Cashiers,Served
+47,92.89,Normal,5,0,5.99,98.88,More Cashiers,Served
+44,84.45,Express,2,0,15.78,100.23,More Cashiers,Served
+51,95.16,Normal,6,0,5.47,100.63,More Cashiers,Served
+52,97.79,Express,2,0,3.09,100.88,More Cashiers,Served
+55,100.51,Normal,5,0,0.55,101.06,More Cashiers,Served
+53,98.11,Express,1,2.12,1.87,102.1,More Cashiers,Served
+54,100.33,Normal,4,0,1.95,102.28,More Cashiers,Served
+46,92.71,Normal,3,0,10.89,103.6,More Cashiers,Served
+49,94.01,Normal,2,0,9.82,103.82,More Cashiers,Served
+56,106.41,Normal,4,0,1.81,108.22,More Cashiers,Served
+61,110.95,Normal,5,0,0.78,111.72,More Cashiers,Served
+59,109.04,Express,1,0,4.23,113.27,More Cashiers,Served
+57,107.09,Normal,4,0,6.35,113.43,More Cashiers,Served
+64,115.75,Express,2,0,2.16,117.9,More Cashiers,Served
+60,109.57,Normal,5,0,9.79,119.36,More Cashiers,Served
+63,115.03,Express,1,0,4.46,119.5,More Cashiers,Served
+58,107.44,Normal,4,0,12.36,119.8,More Cashiers,Served
+62,113.74,Normal,4,0,14.84,128.58,More Cashiers,Served
+65,117.12,Normal,3,0,14.82,131.93,More Cashiers,Served
+50,94.6,Normal,2,0,39.96,134.57,More Cashiers,Served
+68,130.05,Express,2,0,4.99,135.04,More Cashiers,Served
+69,134.77,Normal,2,0,0.45,135.23,More Cashiers,Served
+70,135.38,Normal,3,0,2.31,137.69,More Cashiers,Served
+71,136.57,Normal,3,0,4.12,140.69,More Cashiers,Served
+67,125.53,Normal,2,0,19.56,145.1,More Cashiers,Served
+72,140.4,Normal,1,0,6.09,146.48,More Cashiers,Served
+73,148.28,Express,2,0,2.64,150.92,More Cashiers,Served
+74,151.45,Normal,1,0,5.86,157.31,More Cashiers,Served
+76,163.56,Normal,1,0,1.28,164.84,More Cashiers,Served
+75,160.11,Express,2,0,6.58,166.69,More Cashiers,Served
+77,165.31,Express,2,1.39,1.54,168.24,More Cashiers,Served
+78,173.4,Normal,1,0,2.01,175.41,More Cashiers,Served
+79,175.66,Normal,2,0,2.12,177.78,More Cashiers,Served
+66,123.53,Express,1,0,54.3,177.83,More Cashiers,Served
+80,175.98,Normal,2,0,4.08,180.06,More Cashiers,Served
+82,180.43,Normal,4,0,2.05,182.47,More Cashiers,Served
+84,182.26,Normal,3,0,0.56,182.82,More Cashiers,Served
+83,181,Normal,3,0,2.68,183.67,More Cashiers,Served
+86,184.74,Express,1,0,2.31,187.05,More Cashiers,Served
+81,178.24,Normal,5,0,20.47,198.7,More Cashiers,Served
+87,184.93,Normal,6,0,15.86,200.79,More Cashiers,Served
+94,200.08,Normal,5,0,1.71,201.79,More Cashiers,Served
+93,199.8,Normal,4,0,2.38,202.18,More Cashiers,Served
+88,191.7,Express,2,0,13.46,205.16,More Cashiers,Served
+92,199.43,Express,2,5.72,0.73,205.88,More Cashiers,Served
+90,195.89,Express,2,0,12.74,208.63,More Cashiers,Served
+98,207.4,Normal,5,0,2.28,209.68,More Cashiers,Served
+95,202.4,Express,2,3.48,4.13,210.01,More Cashiers,Served
+99,211.09,Normal,5,0,0.07,211.16,More Cashiers,Served
+102,215.26,Express,2,0,2.76,218.02,More Cashiers,Served
+97,206.59,Express,1,2.04,10.14,218.77,More Cashiers,Served
+96,204.91,Normal,6,0,14.04,218.95,More Cashiers,Served
+91,198.55,Normal,6,0,20.97,219.51,More Cashiers,Served
+101,213.29,Normal,5,0,6.55,219.84,More Cashiers,Served
+104,221.39,Express,1,0,2.15,223.54,More Cashiers,Served
+85,183.21,Normal,4,0,41.59,224.8,More Cashiers,Served
+89,192.85,Normal,3,0,32.71,225.56,More Cashiers,Served
+106,227.39,Normal,4,0,1.26,228.65,More Cashiers,Served
+100,213.09,Normal,4,0,17.57,230.66,More Cashiers,Served
+103,215.66,Normal,3,3.29,14.78,233.73,More Cashiers,Served
+108,235.34,Normal,3,0,0.19,235.53,More Cashiers,Served
+105,227.12,Normal,4,0,16.16,243.29,More Cashiers,Served
+111,246.89,Normal,5,0,0.86,247.75,More Cashiers,Served
+112,247.66,Normal,4,0,1.89,249.55,More Cashiers,Served
+110,242.84,Normal,4,0,12.49,255.32,More Cashiers,Served
+113,252.81,Normal,3,0,2.73,255.54,More Cashiers,Served
+107,228.7,Normal,2,0,28.04,256.73,More Cashiers,Served
+114,257.05,Express,1,0,0.18,257.23,More Cashiers,Served
+109,239.5,Normal,1,0,20.03,259.53,More Cashiers,Served
+116,261.55,Express,1,0,7.69,269.24,More Cashiers,Served
+117,270.07,Normal,2,0,5.76,275.83,More Cashiers,Served
+115,261.01,Normal,1,0,14.98,276,More Cashiers,Served
+119,278.35,Normal,4,0,2.31,280.66,More Cashiers,Served
+122,280.07,Normal,3,0,2.2,282.27,More Cashiers,Served
+121,279.13,Normal,3,0,5.37,284.5,More Cashiers,Served
+125,286.3,Normal,3,0,0.54,286.84,More Cashiers,Served
+120,278.84,Normal,2,0,9.78,288.62,More Cashiers,Served
+126,289.08,Normal,3,0,2.83,291.9,More Cashiers,Served
+127,291.8,Normal,2,0,2.68,294.48,More Cashiers,Served
+124,284.37,Normal,1,0,10.16,294.53,More Cashiers,Served
+118,271.34,Express,2,0,26.4,297.74,More Cashiers,Served
+128,296.51,Normal,2,0,3.86,300.38,More Cashiers,Served
+123,281.28,Express,2,0,19.48,300.77,More Cashiers,Served
+129,297.44,Express,1,0.31,4.09,301.84,More Cashiers,Served
+131,305.36,Normal,3,0,5.95,311.32,More Cashiers,Served
+132,307.75,Express,2,0,4.21,311.97,More Cashiers,Served
+133,307.75,Normal,3,0,4.69,312.45,More Cashiers,Served
+135,311.38,Normal,2,0,1.39,312.78,More Cashiers,Served
+134,309.92,Express,1,0,4.81,314.73,More Cashiers,Served
+130,298.32,Normal,1,0,17.48,315.8,More Cashiers,Served
+138,318.41,Express,1,0,1.67,320.08,More Cashiers,Served
+136,317.17,Normal,2,0,7.52,324.69,More Cashiers,Served
+140,321.27,Express,2,0,4.01,325.28,More Cashiers,Served
+139,321.2,Express,2,0,4.83,326.04,More Cashiers,Served
+137,317.39,Normal,1,0,10.43,327.82,More Cashiers,Served
+145,330.49,Normal,3,0,0.39,330.88,More Cashiers,Served
+144,330.21,Normal,2,0,1.45,331.66,More Cashiers,Served
+141,326,Express,2,0,8.94,334.94,More Cashiers,Served
+142,328.49,Express,1,0,8,336.49,More Cashiers,Served
+143,330.19,Normal,3,0,11.02,341.22,More Cashiers,Served
+146,338.41,Normal,2,0,4.57,342.98,More Cashiers,Served
+149,345.43,Normal,4,0,5.27,350.7,More Cashiers,Served
+151,352.24,Normal,4,0,2.25,354.49,More Cashiers,Served
+153,356.35,Normal,6,0,2.41,358.76,More Cashiers,Served
+155,358.4,Normal,6,0,1.12,359.52,More Cashiers,Served
+148,343.17,Normal,5,0,16.65,359.82,More Cashiers,Served
+154,358.2,Express,2,0,2.38,360.57,More Cashiers,Served
+158,360.18,Express,1,0,4.09,364.27,More Cashiers,Served
+150,347.8,Normal,6,0,17.06,364.87,More Cashiers,Served
+157,360.02,Normal,5,0,5.87,365.89,More Cashiers,Served
+152,355.64,Normal,4,0,10.89,366.53,More Cashiers,Served
+156,359.36,Normal,4,0,9.19,368.55,More Cashiers,Served
+159,361.53,Normal,3,0,8.92,370.45,More Cashiers,Served
+160,367.41,Normal,2,0,3.59,371,More Cashiers,Served
+147,339.13,Normal,1,0,33.1,372.23,More Cashiers,Served
+162,372.28,Normal,2,0,4.07,376.35,More Cashiers,Served
+167,382.51,Normal,4,0,0.21,382.72,More Cashiers,Served
+161,372.27,Normal,3,0,10.5,382.77,More Cashiers,Served
+168,382.86,Normal,3,0,0.21,383.06,More Cashiers,Served
+163,377.08,Normal,2,0,6.93,384.02,More Cashiers,Served
+164,380.52,Express,2,0,4.29,384.82,More Cashiers,Served
+166,381.22,Express,2,0,4.72,385.94,More Cashiers,Served
+170,386.68,Normal,4,0,1.78,388.47,More Cashiers,Served
+169,384.11,Express,1,0.71,4.65,389.46,More Cashiers,Served
+165,381.15,Normal,3,0,8.53,389.67,More Cashiers,Served
+172,387.8,Normal,2,0,2.18,389.98,More Cashiers,Served
+171,386.81,Normal,1,0,3.57,390.39,More Cashiers,Served
+173,391.29,Express,1,0,5.81,397.1,More Cashiers,Served
+174,391.5,Normal,1,0,7.88,399.38,More Cashiers,Served
+176,418.53,Express,1,0,0.15,418.68,More Cashiers,Served
+175,414.73,Normal,1,0,10.53,425.25,More Cashiers,Served
+180,432.13,Normal,1,0,0.91,433.04,More Cashiers,Served
+177,426,Express,2,0,8.3,434.3,More Cashiers,Served
+178,426.41,Express,2,0,9.02,435.43,More Cashiers,Served
+181,434.46,Express,2,0.96,0.2,435.62,More Cashiers,Served
+183,443.76,Normal,2,0,0.59,444.35,More Cashiers,Served
+184,445.02,Normal,2,0,0.81,445.83,More Cashiers,Served
+179,428.49,Express,1,5.81,12.83,447.13,More Cashiers,Served
+185,447.96,Normal,5,0,6.88,454.84,More Cashiers,Served
+187,451.98,Normal,4,0,3.47,455.45,More Cashiers,Served
+186,451.66,Normal,6,0,11.45,463.1,More Cashiers,Served
+182,442.83,Normal,6,0,23.81,466.63,More Cashiers,Served
+188,453.05,Normal,6,0,14.21,467.25,More Cashiers,Served
+190,459.13,Normal,5,0,9.21,468.34,More Cashiers,Served
+194,465.52,Normal,4,1.11,2.1,468.73,More Cashiers,Served
+192,463.08,Normal,3,0,5.79,468.88,More Cashiers,Served
+193,463.87,Normal,6,0,9.85,473.72,More Cashiers,Served
+197,472.31,Normal,5,0,1.51,473.81,More Cashiers,Served
+196,470.74,Normal,4,0,3.57,474.32,More Cashiers,Served
+199,472.97,Normal,3,0,2.43,475.4,More Cashiers,Served
+198,472.38,Normal,2,0,3.12,475.5,More Cashiers,Served
+200,478.28,Normal,3,0,0.67,478.95,More Cashiers,Served
+189,454.81,Express,2,0,24.29,479.1,More Cashiers,Served
+1,2.55,Express,1,0,1.33,3.88,Faster Service,Served
+3,5.95,Normal,2,0,0.16,6.11,Faster Service,Served
+4,6.17,Normal,2,0,0.14,6.32,Faster Service,Served
+5,6.79,Normal,3,0,4.13,10.93,Faster Service,Served
+7,7.97,Normal,3,2.96,0.89,11.81,Faster Service,Served
+8,7.98,Normal,3,3.83,0.51,12.32,Faster Service,Served
+9,10.98,Normal,3,1.34,0.53,12.86,Faster Service,Served
+2,2.61,Normal,2,0,11.69,14.31,Faster Service,Served
+6,7.35,Normal,1,0,8.7,16.05,Faster Service,Served
+10,18.86,Normal,3,0,8.64,27.5,Faster Service,Served
+14,30.43,Express,1,0,1.36,31.79,Faster Service,Served
+13,28.02,Normal,3,0,4.52,32.54,Faster Service,Served
+15,33.48,Express,1,0,1.39,34.87,Faster Service,Served
+16,34.33,Express,1,0.54,1.23,36.1,Faster Service,Served
+12,26.83,Normal,3,0,9.28,36.11,Faster Service,Served
+17,34.6,Normal,2,0,2.43,37.02,Faster Service,Served
+11,23.56,Normal,3,0,18.99,42.54,Faster Service,Served
+18,37.12,Normal,3,0,5.48,42.6,Faster Service,Served
+22,43.25,Normal,3,0,1.37,44.61,Faster Service,Served
+19,37.9,Express,1,0,6.86,44.76,Faster Service,Served
+21,40.69,Normal,3,1.85,6.06,48.6,Faster Service,Served
+23,47.87,Normal,3,0,1.64,49.51,Faster Service,Served
+25,48.55,Normal,3,0.96,2.64,52.15,Faster Service,Served
+24,47.95,Normal,3,0.65,5.59,54.2,Faster Service,Served
+26,53.77,Normal,2,0,1.62,55.39,Faster Service,Served
+27,59.92,Normal,3,0,1.6,61.52,Faster Service,Served
+28,60.63,Normal,3,0,2.68,63.31,Faster Service,Served
+30,63.45,Express,1,0,0.61,64.06,Faster Service,Served
+20,40.25,Normal,3,0,23.93,64.18,Faster Service,Served
+31,63.68,Normal,3,0,2.88,66.56,Faster Service,Served
+29,62.83,Normal,3,0,3.74,66.57,Faster Service,Served
+35,68.23,Express,1,0,5.38,73.61,Faster Service,Served
+34,68.2,Normal,3,0,6.01,74.21,Faster Service,Served
+36,70.15,Normal,3,4.06,1.03,75.24,Faster Service,Served
+33,66.32,Normal,3,0.25,10.35,76.91,Faster Service,Served
+38,71.96,Express,1,1.65,3.65,77.25,Faster Service,Served
+39,77.18,Express,1,0.07,5.35,82.6,Faster Service,Served
+37,70.45,Normal,3,4.79,12.8,88.04,Faster Service,Served
+41,84.63,Normal,3,0,3.97,88.6,Faster Service,Served
+43,86.57,Normal,3,2.03,0.31,88.92,Faster Service,Served
+42,86.57,Normal,3,1.47,1.93,89.97,Faster Service,Served
+40,82.29,Express,1,0.31,7.55,90.15,Faster Service,Served
+32,66.15,Normal,2,0,29.15,95.3,Faster Service,Served
+45,91.9,Express,1,0,3.49,95.39,Faster Service,Served
+44,86.62,Normal,3,2.29,11.05,99.96,Faster Service,Served
+48,99.76,Normal,3,0.2,2.89,102.85,Faster Service,Served
+50,101.13,Express,1,0,1.96,103.09,Faster Service,Served
+47,99.42,Normal,3,0,4.19,103.61,Faster Service,Served
+46,99.24,Normal,3,0,7.62,106.86,Faster Service,Served
+51,104.4,Normal,2,0,3.83,108.23,Faster Service,Served
+52,107.02,Express,1,0,2.17,109.19,Faster Service,Served
+55,109.75,Normal,3,0,0.39,110.13,Faster Service,Served
+53,107.34,Express,1,1.84,1.31,110.49,Faster Service,Served
+54,109.56,Normal,2,0,1.36,110.93,Faster Service,Served
+56,115.64,Normal,3,0,1.27,116.91,Faster Service,Served
+57,116.32,Normal,3,0,4.44,120.77,Faster Service,Served
+59,118.28,Express,1,0,2.96,121.24,Faster Service,Served
+58,116.68,Normal,3,0.23,8.65,125.56,Faster Service,Served
+61,120.18,Normal,3,5.38,1.51,127.07,Faster Service,Served
+64,124.74,Express,1,0,3.13,127.87,Faster Service,Served
+49,100.53,Normal,3,2.32,27.98,130.82,Faster Service,Served
+63,123.71,Normal,3,7.12,0.27,131.1,Faster Service,Served
+65,125.46,Express,1,2.41,4.2,132.06,Faster Service,Served
+62,123.45,Normal,3,3.62,10.37,137.44,Faster Service,Served
+68,137.77,Express,1,0,3.49,141.26,Faster Service,Served
+60,118.81,Normal,3,1.96,21.76,142.53,Faster Service,Served
+69,142.49,Normal,3,0.04,0.32,142.85,Faster Service,Served
+70,143.09,Normal,3,0,1.62,144.71,Faster Service,Served
+71,144.28,Normal,3,0.43,2.89,147.59,Faster Service,Served
+67,133.25,Normal,3,4.2,13.7,151.14,Faster Service,Served
+72,148.11,Normal,2,0,4.26,152.37,Faster Service,Served
+73,156,Express,1,0,1.85,157.84,Faster Service,Served
+74,159.16,Normal,2,0,4.1,163.27,Faster Service,Served
+66,126.83,Normal,1,4.27,38.01,169.1,Faster Service,Served
+76,171.27,Normal,1,0,0.9,172.17,Faster Service,Served
+75,167.83,Express,1,0,4.61,172.43,Faster Service,Served
+77,173.02,Express,1,0,1.08,174.1,Faster Service,Served
+78,181.11,Normal,1,0,1.41,182.52,Faster Service,Served
+79,183.37,Normal,2,0,1.48,184.86,Faster Service,Served
+80,183.69,Normal,2,0,2.85,186.55,Faster Service,Served
+82,188.14,Normal,3,0,1.43,189.57,Faster Service,Served
+84,189.97,Normal,3,0,0.4,190.37,Faster Service,Served
+83,188.71,Normal,2,0,1.87,190.59,Faster Service,Served
+86,192.45,Express,1,0,1.62,194.07,Faster Service,Served
+81,185.95,Normal,3,0,14.33,200.28,Faster Service,Served
+87,192.65,Normal,3,0,11.1,203.74,Faster Service,Served
+88,199.41,Express,1,0,9.42,208.83,Faster Service,Served
+90,203.61,Express,1,5.23,5.72,214.55,Faster Service,Served
+91,206.26,Express,1,8.29,0.64,215.19,Faster Service,Served
+92,210.51,Express,1,4.69,0.59,215.79,Faster Service,Served
+85,190.92,Normal,2,0,29.12,220.04,Faster Service,Served
+93,217.49,Express,1,0,4.87,222.37,Faster Service,Served
+89,200.57,Normal,2,0,22.89,223.46,Faster Service,Served
+94,219.51,Express,1,2.86,5.28,227.65,Faster Service,Served
+98,228.92,Normal,2,0,1.59,230.52,Faster Service,Served
+96,223.44,Express,1,4.21,2.89,230.54,Faster Service,Served
+99,232.61,Normal,2,0,0.05,232.66,Faster Service,Served
+95,222.67,Normal,3,0,12.38,235.05,Faster Service,Served
+97,228.12,Express,1,2.43,7.1,237.64,Faster Service,Served
+101,234.81,Normal,3,0,4.59,239.4,Faster Service,Served
+103,237.19,Normal,3,0,8.35,245.53,Faster Service,Served
+100,234.62,Normal,2,0,12.3,246.92,Faster Service,Served
+106,244.55,Normal,1,0,2.74,247.29,Faster Service,Served
+102,236.78,Express,1,0.85,10.35,247.99,Faster Service,Served
+104,238.11,Express,1,9.88,5.09,253.08,Faster Service,Served
+105,243.84,Express,1,9.24,0.13,253.21,Faster Service,Served
+107,248.34,Normal,3,0,10.5,258.84,Faster Service,Served
+108,248.76,Normal,2,0,11.19,259.95,Faster Service,Served
+111,265.49,Normal,3,0,0.6,266.09,Faster Service,Served
+112,266.27,Normal,3,0,1.32,267.59,Faster Service,Served
+110,261.44,Normal,2,0,8.74,270.18,Faster Service,Served
+109,258.11,Normal,2,0,14.02,272.13,Faster Service,Served
+113,271.41,Normal,1,0,1.91,273.32,Faster Service,Served
+114,275.65,Express,1,0,0.13,275.78,Faster Service,Served
+116,280.15,Express,1,0,5.39,285.54,Faster Service,Served
+115,279.62,Normal,2,0,10.49,290.1,Faster Service,Served
+117,288.67,Normal,1,0,4.03,292.71,Faster Service,Served
+119,296.95,Normal,3,0,1.62,298.57,Faster Service,Served
+122,298.67,Normal,3,0,1.54,300.21,Faster Service,Served
+121,297.73,Normal,2,0,3.76,301.49,Faster Service,Served
+120,297.44,Normal,2,0,6.85,304.29,Faster Service,Served
+118,289.95,Express,1,0,18.48,308.43,Faster Service,Served
+124,302.97,Normal,2,0,6.67,309.64,Faster Service,Served
+125,309.47,Normal,1,0,0.38,309.85,Faster Service,Served
+126,312.24,Normal,1,0,1.98,314.22,Faster Service,Served
+123,299.89,Express,1,8.54,7.11,315.54,Faster Service,Served
+127,314.97,Normal,1,0,1.87,316.85,Faster Service,Served
+128,319.68,Normal,2,0,2.7,322.38,Faster Service,Served
+129,320.61,Express,1,0,2.86,323.47,Faster Service,Served
+131,328.53,Normal,3,0,4.17,332.7,Faster Service,Served
+130,321.48,Normal,2,0,12.24,333.72,Faster Service,Served
+132,330.92,Express,1,0,2.95,333.87,Faster Service,Served
+133,330.92,Normal,1,0,3.28,334.2,Faster Service,Served
+135,334.55,Normal,1,0,0.98,335.53,Faster Service,Served
+134,333.09,Express,1,0.78,3.36,337.24,Faster Service,Served
+138,341.58,Express,1,0,1.17,342.74,Faster Service,Served
+136,340.34,Normal,2,0,5.26,345.6,Faster Service,Served
+139,344.37,Express,1,0,3.38,347.75,Faster Service,Served
+137,340.56,Normal,1,0,7.3,347.86,Faster Service,Served
+140,344.43,Express,1,3.32,2.81,350.56,Faster Service,Served
+144,356.03,Normal,1,0,0.59,356.62,Faster Service,Served
+141,349.17,Express,1,1.39,6.26,356.82,Faster Service,Served
+142,351.65,Express,1,5.17,2.91,359.73,Faster Service,Served
+143,353.36,Express,1,6.37,0.27,360,Faster Service,Served
+146,359.99,Normal,3,0,3.2,363.19,Faster Service,Served
+145,359.5,Normal,2,0,3.83,363.33,Faster Service,Served
+149,367.01,Normal,3,0,3.69,370.7,Faster Service,Served
+148,364.74,Normal,3,0,11.66,376.4,Faster Service,Served
+151,373.82,Normal,3,2.58,1.58,377.98,Faster Service,Served
+150,369.38,Normal,3,1.32,11.94,382.64,Faster Service,Served
+152,377.22,Normal,3,0.76,5.17,383.15,Faster Service,Served
+154,381.56,Express,1,0,1.77,383.33,Faster Service,Served
+147,360.7,Normal,3,0,23.17,383.88,Faster Service,Served
+155,382.36,Normal,3,0.79,0.78,383.93,Faster Service,Served
+157,383.81,Express,1,0,2.75,386.56,Faster Service,Served
+153,377.93,Normal,2,4.71,4.08,386.72,Faster Service,Served
+156,383.15,Normal,1,0.72,4.11,387.98,Faster Service,Served
+158,386.88,Express,1,0,2.86,389.74,Faster Service,Served
+159,388.22,Normal,2,0,6.24,394.46,Faster Service,Served
+160,394.1,Normal,1,0,2.51,396.61,Faster Service,Served
+162,398.97,Normal,2,0,2.85,401.82,Faster Service,Served
+161,398.96,Normal,2,0,7.35,406.31,Faster Service,Served
+163,403.77,Normal,2,0,4.85,408.63,Faster Service,Served
+164,407.21,Express,1,0,3.01,410.22,Faster Service,Served
+169,410.85,Normal,3,0,0.77,411.61,Faster Service,Served
+165,407.84,Normal,3,0,5.97,413.8,Faster Service,Served
+168,410.78,Normal,3,0,4.36,415.14,Faster Service,Served
+166,407.91,Express,1,2.31,5.11,415.33,Faster Service,Served
+167,409.21,Express,1,6.12,0.45,415.78,Faster Service,Served
+170,410.92,Express,1,4.86,0.1,415.88,Faster Service,Served
+172,413.66,Normal,2,0,2.5,416.16,Faster Service,Served
+173,414.65,Normal,1,0,1.53,416.17,Faster Service,Served
+171,412.47,Express,1,3.42,4.07,419.95,Faster Service,Served
+174,418.13,Normal,1,0,5.51,423.65,Faster Service,Served
+176,445.16,Express,1,0,0.11,445.27,Faster Service,Served
+175,441.36,Normal,1,0,7.37,448.73,Faster Service,Served
+179,455.12,Normal,1,0,0.96,456.08,Faster Service,Served
+177,452.63,Express,1,0,5.81,458.44,Faster Service,Served
+180,458.13,Normal,1,0,0.64,458.76,Faster Service,Served
+178,453.04,Express,1,5.4,8.98,467.43,Faster Service,Served
+181,460.46,Express,1,6.96,0.14,467.56,Faster Service,Served
+183,469.76,Normal,2,0,0.41,470.17,Faster Service,Served
+184,471.02,Normal,2,0,0.56,471.59,Faster Service,Served
+185,473.95,Normal,3,0,4.82,478.77,Faster Service,Served
